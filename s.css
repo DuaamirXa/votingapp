@@ -1,0 +1,123 @@
+body {
+    background-image: url(img2.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #247482c0;
+}
+
+.main-container {
+
+    border-radius: 25px;
+
+    padding: 20px;
+    text-align: center;
+}
+
+.app-title {
+    color: #3d0d0d;
+    font-size: 30px ;
+    margin-top: 25px;
+    font-style: italic;
+   
+}
+
+
+#candidateInput {
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid #0d4470;
+    border-radius: 10px;
+    font-family: sans-serif ;
+}
+
+#addCandidateBtn {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-image: url(img1.png);
+    opacity: 0.5;
+    opacity: calc(0.6);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 10px;
+    color: #080707;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.candidates-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+
+.candidates-table td {
+    padding: 10px;
+    border: 1px solid #585151;
+    text-align: left;
+    font-family:  sans-serif ;
+}
+
+.candidates-table th {
+    color: #000000;
+}
+
+.candidates-table tr:hover {
+    background-color: #c42f2fa1;
+}
+
+table tr {
+    border-radius: 10px;
+    box-shadow: 0 0 10px -2px #be3030;
+    overflow: hidden !important;
+    margin-bottom: 10px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+table tr td {
+    width: 100% ;
+    border: unset !important;
+}
+
+table tr td:last-child {
+    text-align: end;
+    padding-right: 20px;
+}
+
+.main-container {
+    backdrop-filter: blur(0.5px);
+    background:  #7a98aadc;
+}
+
+.candidates-table th,
+.candidates-table td {
+    color: #0c0c0cdb;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 24px;
+}
+
+table tr {
+    background: #c610102f;
+}
+
+table tr:hover {
+    background: #1d5c86ab;
+}
+
+input#candidateInput {
+    background: #ffffff ;
+}
+
+table tr:hover td {
+    color: #98cacfdc;
+}
